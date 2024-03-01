@@ -6,6 +6,8 @@ public class MainDiabetes {
 		Users myUser = new Users();
 		
 		myUser.checker();
+		
+		
 	}
 
 }

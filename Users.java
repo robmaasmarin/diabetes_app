@@ -24,14 +24,26 @@ public class Users {
 		again= false;
 		switch(attempt) {
 		  case "Bob":
-			  System.out.println("Welcome!");
+			  Passwords bob = new Passwords();
+			  bob.checker1();
+			  Sugar myUserSugar1 = new Sugar();
+			  myUserSugar1.checkSugar();
+			  
+			  //System.out.println("Welcome!");
 			  break;
 		  case "Rob":
-			  System.out.println("Welcome!");
+			  Passwords rob = new Passwords();
+			  rob.checker2();
+			  Sugar myUserSugar2 = new Sugar();
+			  myUserSugar2.checkSugar();
 		    break;
 		  case "Kob":
-			  System.out.println("Welcome!");
-			    break;
+			  Passwords kob = new Passwords();
+			  kob.checker3();
+			  Sugar myUserSugar3 = new Sugar();
+			  myUserSugar3.checkSugar();
+			  
+			  break;
 			    default:
 			    	
 			    	again=true;
