@@ -42,6 +42,8 @@ public class Users {
 			  kob.checker3();
 			  Sugar myUserSugar3 = new Sugar();
 			  myUserSugar3.checkSugar();
+			  Alimentos myOption = new Alimentos();
+			  myOption.menu();
 			  
 			  break;
 			    default:
