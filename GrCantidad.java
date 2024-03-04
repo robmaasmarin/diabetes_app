@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class GrCantidad {
 
-	public void cantidad() {
+	public void cantidad(double [] gramos) {
 		
 		Scanner grScanner = new Scanner(System.in);
 		
@@ -12,6 +12,7 @@ public class GrCantidad {
 		double foodquantity = Double.parseDouble(grScanner.nextLine());
 		
 		System.out.println("Has introducido " + foodquantity + " gramos.");
+		gramos[0] = foodquantity;
 		
 		
 		
