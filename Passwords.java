@@ -1,6 +1,4 @@
 package diabetes_app;
-import java.util.Dictionary;
-import java.util.Hashtable;
 import java.util.Scanner;
 
 
