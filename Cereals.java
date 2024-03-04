@@ -5,6 +5,10 @@ public class Cereals {
 	public void myCereals() {
 		
 		System.out.println("You have chosen cereals!");
+		
+		//GrCantidad micantidad = new GrCantidad();
+		
+		//micantidad.cantidad();
 	}
 
 }

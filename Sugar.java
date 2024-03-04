@@ -3,20 +3,22 @@ import java.util.Scanner;
 
 public class Sugar {
 
-	public void checkSugar() {
+	public void checkSugar(int[] mgensangre) {
 	Scanner mysugar = new Scanner(System.in);
 	int count = 0;
 	
 	while(true) {
 	
-	System.out.println("Please, insert sugar in blood: ");
+	System.out.println("Por favor, introduce tu sangre en azúcar(mg/dL): ");
 	int quantity;
 	
 	// try catch para que el usuario solo pueda introducir un número
 	try {
 	quantity = Integer.parseInt(mysugar.nextLine());
 	
-	System.out.println("Your sugar quantity in blood: " +  quantity);
+	System.out.println("Tu sangre en azúcar: " +  quantity);
+	mgensangre[0] = quantity;
+	
 	break;
 	
 	}
