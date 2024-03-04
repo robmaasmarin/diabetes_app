@@ -9,14 +9,14 @@ public class Sugar {
 	
 	while(true) {
 	
-	System.out.println("Por favor, introduce tu sangre en azúcar(mg/dL): ");
+	System.out.println("Por favor, introduce tu azúcar en sangre(mg/dL): ");
 	int quantity;
 	
 	// try catch para que el usuario solo pueda introducir un número
 	try {
 	quantity = Integer.parseInt(mysugar.nextLine());
 	
-	System.out.println("Tu sangre en azúcar: " +  quantity);
+	System.out.println("Tu azúcar en sangre: " +  quantity);
 	mgensangre[0] = quantity;
 	
 	break;
